@@ -1,0 +1,206 @@
+/* CSS DIRECTORY
+	1. General styles
+	2. Typography
+	3. Header and Main Navigation
+	4. Lists
+	5. Footer
+*/
+
+/* ||	1. General styless */
+html {
+	height: 100%;
+}
+
+body {
+	font-family: "Judson", serif;
+	font-family: "Montserrat", sans-serif;
+	color: #731F2E;
+}
+
+p {
+	font-family: "Judson", serif;
+	font-size: 14pt !important;
+	font-weight: 500;
+	color: #731F2E;
+}
+
+/* ||	2. Typography */
+
+h1 {
+	color: #fff;
+	font-family: "Quando", serif;
+	font-size: 72pt;
+}
+
+.h2,
+h2 {
+	color: #731F2E;
+	font-weight: 700;
+}
+
+.h3,
+h3 {
+	color: #2d3213;
+	font-weight: 700;
+}
+
+.h4,
+h4 {
+	color: #fff;
+	font-family: "Quando", serif;
+	font-size: 14pt !important;
+}
+
+/* ||	3. Header and Main Navigation */
+a.navbar-brand {
+	font-weight: 700;
+	color: #2d3213;
+}
+
+a.wl-link {
+	color: #fff;
+	font-family: "Montserrat", serif;
+	font-size: 12pt;
+}
+
+.nav-link,
+li.nav-item {
+	color: #2d3213 !important;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+nav.navbar {
+	background-color: #E7DECB;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+li.nav-item a:hover,
+.btn.btn-link:hover {
+	color: #2d3213 !important;
+	background-color: #E7DECB;
+	border: 1px solid transparent;
+}
+
+.nav-link.active,
+li.nav-item a:active,
+.btn.btn-link:active {
+	color: #000000 !important;
+	background-color: #96a24e;
+	border: 1px solid transparent;
+}
+
+.nav-link.focus,
+li.nav-item a:focus,
+.btn.btn-link:focus {
+	color: #fff !important;
+	background-color: #2d3213 !important;
+	border: 1px solid transparent;
+}
+
+li.nav-item a {
+	border: 1px solid transparent;
+}
+
+article#mary p:first-child:first-letter {
+	float: left;
+	font-size: 5.562rem;
+	line-height: 3.437rem;
+	padding: 0.25rem 0.625rem 0rem 0.1875rem;
+	font-family: Georgia, San-serif;
+	text-shadow: 2px 2px 0 #E7DECB, 3px 3px 0 #731F2E;
+}
+
+article#dylan p:first-child:first-letter {
+	float: left;
+	font-size: 88px;
+	line-height: 54px;
+	padding: 4px 10px 0px 4px;
+	font-family: Georgia, San-serif;
+	text-shadow: 2px 2px 0 #E7DECB, 3px 3px 0 #731F2E;
+}
+
+header,
+.header {
+	background-color: #731F2E;
+	height: 15%;
+}
+
+.page-header {
+	font-weight: 700;
+}
+
+.bg-green {
+	background-color: #6b772a;
+	color: #fff;
+}
+
+ul.list-group {
+	border-radius: 0%;
+}
+
+.list-group-item {
+	color: #731F2E !important;
+	font-weight: 500;
+}
+
+.disabled {
+	background-color: #96a24e !important;
+	color: #321313 !important;
+}
+
+img {
+	width: 100%;
+}
+
+img.logo {
+	width: 200px;
+}
+
+.kid-photo {
+	border: solid #fff;
+	border-width: 7px 7px 21px 7px;
+	border-radius: 0 !important;
+	box-shadow: 1px 1px 7px #333;
+	-webkit-box-shadow: 1px 1px 7px #333;
+}
+
+.hero.card:nth-child(odd) {
+	background-color: #E7DECB;
+	margin-top: -8px;
+	border-radius: 0 !important;
+	border-top: 2px solid #731F2E;
+	border-bottom: 2px solid #731F2E;
+}
+
+.hero.card:nth-child(even) {
+	background-color: #E7DECB;
+	border-radius: 0 !important;
+	border-top: 2px solid #731F2E;
+	border-bottom: 2px solid #731F2E;
+}
+
+.hero.list {
+	border-top: 2px solid #731F2E;
+	border-bottom: 2px solid #731F2E
+}
+
+.hero.thanks {
+	background-color: #96a24e;
+}
+
+.btn.btn-link {
+	background-color: #3f461b;
+	color: #fff;
+	font-family: "Montserrat", serif;
+	font-size: 12pt;
+	text-decoration: none !important;
+}
+
+/* ||	5. Footer */
+footer,
+.footer {
+	background-color: #3f461b;
+	height: 15%;
+}
